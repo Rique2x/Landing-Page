@@ -223,3 +223,25 @@ button:hover{
     bottom: 40px;
     width: 100px;
 }
+
+
+.copyright-container{
+    border: 1px solid;
+    height: 100px;
+    background-color: #0a1627;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-item{
+    border: 1px solid white;
+    width: 400px;
+    height: 30px;
+}
+
+.copyright-desc{
+    font-size: 17px;
+    text-align: center;
+    
+}
