@@ -107,12 +107,15 @@ button:hover{
     display: flex;
     justify-content: center;
     color: #1F2937;
+    margin-top: 15px;
+
 }
 
 .photo-grid-container{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
 
 }
 
@@ -138,4 +141,37 @@ button:hover{
     text-align: center;
     margin-top: 10px;
     font-size: 12px;
+    height: 150px;
+}
+
+.section-container{
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section-quote{
+    width: 800px;
+    height: 200px;
+    position: relative;
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+}
+
+.name{
+    color: #0a1627;
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    left: 569px;
+    bottom: 1px;
+    width: 230px;
 }
