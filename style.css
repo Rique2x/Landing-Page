@@ -175,3 +175,51 @@ button:hover{
     bottom: 1px;
     width: 230px;
 }
+
+.sign-up-container{
+    border: 1px solid;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-item{
+    border: 1px solid #3882f6;
+    height: 190px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    
+}
+
+.sign-up-section{
+    border: 1px solid;
+    width: 700px;
+    margin: 35px 150px;
+
+}
+
+.sign-up-desc1{
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid;
+    width: 250px;
+    position: relative;
+    top: 30px;
+}
+
+.sign-up-desc2{
+    border: 1px solid;
+    width: 470px;
+    position: relative;
+    top: 20px;
+}
+
+.bt2{
+    border: 2px solid;
+    position: relative;
+    left: 599px;
+    bottom: 40px;
+    width: 100px;
+}
