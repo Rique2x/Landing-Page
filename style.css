@@ -201,3 +201,58 @@ span{
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/*UI*/
+
+@media (max-width: 550px){
+    .header{
+        font-size: 18px;
+    }
+
+    .title{
+        position: relative;
+        left: 40px;
+        line-height: 70px;
+        font-size: 30px;
+    }
+
+    .para{
+        margin: 0 auto;
+        width: 380px;
+    }
+
+    .pic{
+        width: 350px;
+    }
+
+    button{
+        margin: 30px;
+        position: relative;
+        left: 140px;
+    }
+
+    .header-info{
+        font-size: 25px;
+    }
+
+    .image-items{
+        gap: 10px;
+    }
+
+    .quote{
+        font-size: 17px;
+    }
+
+    .sign-up-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up-item{
+        width: 400px;
+    }
+
+    .b2{
+        position: static;
+    }
+}
