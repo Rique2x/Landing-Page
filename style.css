@@ -60,7 +60,6 @@ header{
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #e5e7eb;
-    width: 550px;
 }
 
 .para{
@@ -204,20 +203,24 @@ span{
 
 /*UI*/
 
-@media (max-width: 550px){
+@media (max-width: 550px) {
+
     .header{
         font-size: 18px;
     }
 
+    a{
+        font-size: 15px;
+    }
+
     .title{
-        position: relative;
-        left: 40px;
+        text-align: center;
         line-height: 70px;
         font-size: 30px;
     }
 
     .para{
-        margin: 0 auto;
+        text-align: center;
         width: 380px;
     }
 
@@ -228,7 +231,7 @@ span{
     button{
         margin: 30px;
         position: relative;
-        left: 140px;
+        left: 100px;
     }
 
     .header-info{
@@ -249,10 +252,20 @@ span{
     }
 
     .sign-up-item{
-        width: 400px;
+        width: 350px;
     }
 
     .b2{
         position: static;
+        font-size: 15px;
+    }
+
+    .p1, .p2{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .copyright{
+        font-size: 10px;
     }
 }
